@@ -32,6 +32,7 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 ## PROGRAM :
+###app.component.html:
 ```
 <body>
     <div class="container">
@@ -49,6 +50,7 @@ Publish the website in the given URL.
     </div>
 </body>
 ```
+###rectangle.component.html:
 ```
 <div>
     <h2>Area of a Rectangle</h2>
@@ -58,6 +60,7 @@ Publish the website in the given URL.
     Area=<input [value]="area" type="text" >Meter<sup>2</sup>
 </div>
 ```
+###cylinder.component.html:
 ```
 import { Component } from '@angular/core';
 
@@ -70,7 +73,9 @@ export class AppComponent {
   title = 'mathcalculations';
 }
 ```
-```import { Component } from '@angular/core';
+app.comopnent.ts:
+```
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -81,7 +86,9 @@ export class AppComponent {
   title = 'mathcalculations';
 }
 ```
-```import { Component } from "@angular/core";
+rectangle.component.ts:
+```
+import { Component } from "@angular/core";
 
 @Component({
     selector:'Rectangle-Area',
@@ -104,6 +111,7 @@ export class RectangleComponent{
     }
 }
 ```
+cylinder.component.ts:
 ```
 import { Component } from "@angular/core";
 import { RadioControlValueAccessor } from "@angular/forms";
@@ -129,6 +137,7 @@ export class CylinderComponent{
     }
 }
 ```
+app.component.css:
 ```
 .container{
     background-color: green;
@@ -147,6 +156,7 @@ h1{
     text-decoration: underline;
 }
 ```
+app.module.ts:
 ```
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
