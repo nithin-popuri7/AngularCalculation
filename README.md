@@ -32,10 +32,25 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 ## PROGRAM :
+```<body>
+    <div class="container">
+        <h1>Math Calculations</h1>
+        <div class="subcontainer">
+            
+            <Rectangle-Area></Rectangle-Area>
+        </div>
+        <div class="subcontainer">
+            <Cylinder-Area></Cylinder-Area>
+        </div>
+        <div class="footer">
+            Developed by: Popuri Siva Naga Nithin
+        </div>
+    </div>
+</body>
+```
 
 ## OUTPUT:
-
-### Home Page:
+![githublogo](angu.jpeg)
 
 
 ## Result:
